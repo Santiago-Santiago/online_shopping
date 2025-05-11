@@ -257,7 +257,7 @@ class CustomDataTable extends StatelessWidget {
   final bool isAscending;
 
   const CustomDataTable({
-    Key? key,
+    super.key,
     required this.columns,
     required this.categories,
     required this.selectedRow,
@@ -265,7 +265,7 @@ class CustomDataTable extends StatelessWidget {
     required this.onSort,
     required this.sortColumn,
     required this.isAscending,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
