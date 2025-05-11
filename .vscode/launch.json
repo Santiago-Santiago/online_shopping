@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "online_shopping (debug mode)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--verbose"
+      ],
+      "cwd": "${workspaceFolder}",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "online_shopping (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "online_shopping (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "online_shopping (Web Server mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "cwd": "${workspaceFolder}",
+      "deviceId": "web-server",
+      "args": [
+        "--verbose"
+      ],
+    }
+  ]
+}
